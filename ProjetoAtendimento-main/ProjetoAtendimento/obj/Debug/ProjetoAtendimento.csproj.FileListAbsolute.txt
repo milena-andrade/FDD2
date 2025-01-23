@@ -1,0 +1,11 @@
+C:\Projetos C++\ProjetoAtendimento\ProjetoAtendimento\bin\Debug\ProjetoAtendimento.exe.config
+C:\Projetos C++\ProjetoAtendimento\ProjetoAtendimento\bin\Debug\ProjetoAtendimento.exe
+C:\Projetos C++\ProjetoAtendimento\ProjetoAtendimento\bin\Debug\ProjetoAtendimento.pdb
+C:\Projetos C++\ProjetoAtendimento\ProjetoAtendimento\obj\Debug\ProjetoAtendimento.csproj.AssemblyReference.cache
+C:\Projetos C++\ProjetoAtendimento\ProjetoAtendimento\obj\Debug\ProjetoAtendimento.csproj.SuggestedBindingRedirects.cache
+C:\Projetos C++\ProjetoAtendimento\ProjetoAtendimento\obj\Debug\ProjetoAtendimento.Form1.resources
+C:\Projetos C++\ProjetoAtendimento\ProjetoAtendimento\obj\Debug\ProjetoAtendimento.Properties.Resources.resources
+C:\Projetos C++\ProjetoAtendimento\ProjetoAtendimento\obj\Debug\ProjetoAtendimento.csproj.GenerateResource.cache
+C:\Projetos C++\ProjetoAtendimento\ProjetoAtendimento\obj\Debug\ProjetoAtendimento.csproj.CoreCompileInputs.cache
+C:\Projetos C++\ProjetoAtendimento\ProjetoAtendimento\obj\Debug\ProjetoAtendimento.exe
+C:\Projetos C++\ProjetoAtendimento\ProjetoAtendimento\obj\Debug\ProjetoAtendimento.pdb

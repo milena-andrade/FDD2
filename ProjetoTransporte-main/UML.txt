@@ -1,0 +1,60 @@
+|-------------------------------|
+|           Veiculo             |
+|-------------------------------|
+| - id: int                     |
+| - capacidade: int             |
+| - passageiros: int            |
+|-------------------------------|
+| + getId(): int                |
+| + getCapacidade(): int        |
+| + getPassageiros(): int       |
+| + adicionarPassageiro(): void |
+| + limparPassageiros(): void   |
+|-------------------------------|
+
+|--------------------------------------------|
+|                  Garagem                   |
+|--------------------------------------------|
+| - id: int                                  |
+| - local: String                            |
+| - veiculos: List<Veiculo>                  |
+|--------------------------------------------|
+| + getId(): int                             |
+| + getLocal(): String                       |
+| + adicionarVeiculo(veiculo: Veiculo): void |
+| + removerVeiculo(veiculo: Veiculo): void   |
+| + listarVeiculos(): List<Veiculo>          |
+|--------------------------------------------|
+
+|------------------------------|
+|           Viagem             |
+|------------------------------|
+| - origem: Garagem            |
+| - destino: Garagem           |
+| - passageiros: int           |
+| - veiculo: Veiculo           |
+|------------------------------|
+| + getOrigem(): Garagem       |
+| + getDestino(): Garagem      |
+| + getPassageiros(): int      |
+| + getVeiculo(): Veiculo      |
+|------------------------------|
+
+
+|----------------------------------------------------------------------------|
+|                              ControleFrota                                 |
+|----------------------------------------------------------------------------|
+| - garagens: List<Garagem>                                                  |
+| - veiculos: List<Veiculo>                                                  |
+| - viagens: List<Viagem>                                                    |
+|----------------------------------------------------------------------------|
+| + cadastrarVeiculo(veiculo: Veiculo): void                                 |
+| + cadastrarGaragem(garagem: Garagem): void                                 |
+| + iniciarJornada(): void                                                   |
+| + encerrarJornada(): void                                                  |
+| + liberarViagem(origem: Garagem, destino: Garagem, veiculo: Veiculo): void |
+| + listarVeiculos(garagem: Garagem): List<Veiculo>                          |
+| + qtdViagens(origem: Garagem, destino: Garagem): int                       |
+| + listarViagens(origem: Garagem, destino: Garagem): List<Viagem>           |
+| + qtdPassageirosTransportados(origem: Garagem, destino: Garagem): int      |
+|----------------------------------------------------------------------------|
